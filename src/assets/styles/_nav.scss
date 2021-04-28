@@ -1,0 +1,21 @@
+.nav-bar {
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  padding: 1rem 2.5rem;
+  background: #282828;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  button {
+    width: 100px;
+  }
+  @media (max-width: 900px) {
+    padding: 1.5rem 1rem;
+  }
+  .btn-block + .btn-block {
+    margin-top: 0;
+  }
+}
